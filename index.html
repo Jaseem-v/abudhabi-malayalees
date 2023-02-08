@@ -33,7 +33,7 @@
         <nav class="nav">
             <div class="container">
                 <div class="nav__content">
-                    <img src="assets/img/logo_white.png" alt="img">
+                    <img src="assets/img/lofo0.png" alt="img">
                 </div>
             </div>
 
@@ -42,7 +42,9 @@
         <section class="under-construction">
             <div class="container">
                 <div class="under-construction__content">
-                    <img src="assets/img/gif.gif" alt="gif">
+                    <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_y9czxcb9.json"
+                        background="transparent" speed="1" class="under-construction__lottie" loop
+                        autoplay></lottie-player>
                     <h1 class="under-construction__title">
                         Building something amazing!
                     </h1>
@@ -60,12 +62,12 @@
 
                     <ul>
                         <li>
-                            <strong>Facebook Group 1 :-  </strong>
+                            <strong>Facebook Group 1 :- </strong>
                             <a
                                 href="https://www.facebook.com/groups/abudhabimalayalees">https://www.facebook.com/groups/abudhabimalayalees</a>
                         </li>
                         <li>
-                            <strong>Facebook Group 2  :- </strong>
+                            <strong>Facebook Group 2 :- </strong>
                             <a
                                 href="https://www.facebook.com/groups/abudhabimalayali">https://www.facebook.com/groups/abudhabimalayali</a>
                         </li>
@@ -105,46 +107,8 @@
     </main>
 
 
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-    <script>
-
-        let sections = document.querySelectorAll("section")
-        let navLi = document.querySelectorAll(".navigation__link")
-
-        const hederElement = document.getElementById("home");
-        const navbarElement = document.getElementById("navbar");
-
-
-        window.onscroll = () => {
-            var current = "";
-
-
-
-            sections.forEach((section) => {
-                const sectionTop = section.offsetTop;
-                if (window.pageYOffset >= sectionTop + -150) {
-                    current = section.getAttribute("id");
-
-                    navLi.forEach((li) => {
-                        li.classList.remove("active");
-                        if (li.href.includes(current)) {
-                            li.classList.add('active');
-                        }
-                    });
-                }
-                if (window.pageYOffset < (hederElement.offsetHeight - navbarElement.offsetHeight)) {
-                    navLi.forEach((li) => {
-                        li.classList.remove("active");
-                    });
-
-                    navLi[0].classList.add("active");
-                }
-            });
-
-
-        };
-
-    </script>
 
 </body>
 

@@ -10,8 +10,8 @@ main {
   background-size: cover;
 
 
-  background: #fff;
-  
+  // background: #fff;
+
 }
 
 .nav {
@@ -36,7 +36,12 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
- 
+
+  }
+
+  &__lottie {
+    width: 55rem;
+
   }
 
   &__title {
@@ -45,6 +50,7 @@ main {
     line-height: 1;
     text-align: center;
     margin-bottom: 2rem;
+    color: #fff;
   }
 
   &__sub-title {
@@ -53,26 +59,27 @@ main {
     line-height: 1;
     /* identical to box height */
     text-align: center;
+    color: #fff;
 
   }
 
   img {
-    width: 35rem;
     // margin-bottom: 5rem;
   }
 }
 
-.links{
-  &__content{
+.links {
+  &__content {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  ul{
-    li{
+  ul {
+    li {
       margin-bottom: 1.5rem;
       font-size: 1.6rem;
+      color: #fff;
     }
   }
 }
