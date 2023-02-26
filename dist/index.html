@@ -20,35 +20,41 @@
 <body class="overflow-x-hidden">
     <main>
         <header class="bg-bgBlack text-white">
+
             <!-- \\\\\\\\\\\\\\\\ -->
             <!-- \\\ Navbar -->
-            <nav class="border-b font-inter">
+            <nav class="border-b font-inter ">
                 <div class="max-w-screen-xl mx-auto flex items-center justify-between px-5 xl:px-0">
-                    <div class="logo flex items-center gap-2 py-7">
-                        <div><img src="/dist/assests/images/logo.png" alt="logo" class="h-10 lg:h-12">
-                        </div>
+                    <!-- logo👇 -->
+                    <a href="#" class="logo flex items-center gap-2 py-7"><img src="/dist/assests/images/logo.png"
+                            alt="logo" class="h-10 lg:h-12">
                         <p
-                            class="text-xl lg:text-2xl font-kaisei font-bold bg-logoBg text-transparent bg-clip-text leading-[23.83px]">
+                            class="text-lg lg:text-2xl font-kaisei font-bold bg-logoBg text-transparent bg-clip-text leading-[23.83px]">
                             Abu
                             Dhabi<br>Malayalees</p>
-                    </div>
+                    </a>
+                    <!-- logo👆 -->
                     <div class="hidden lg:grid h-[120px] items-center border-x px-20">
-                        <div class="flex gap-14">
-                            <a href="#" class="text-base font-bold">Home</a>
-                            <a href="#" class="text-base">About Us</a>
-                            <a href="#" class="text-base">Gallery</a>
-                            <a href="#" class="text-base">Contact Us</a>
+                        <div class="flex gap-14" id="navbar-cta">
+                            <a href="#" class="text-base font-bold hover:text-yellow-100 active:text-yellow-200"
+                                aria-current="page">Home</a>
+                            <a href="#" class="text-base hover:text-yellow-100 active:text-yellow-200">About Us</a>
+                            <a href="#" class="text-base hover:text-yellow-100 active:text-yellow-200">Gallery</a>
+                            <a href="#" class="text-base hover:text-yellow-100 active:text-yellow-200">Contact Us</a>
                         </div>
                     </div>
                     <div>
-                        <button class="font-regular bg-orange py-3 px-12 text-base rounded-lg">Login</button>
+                        <button
+                            class="font-regular bg-orange py-3 px-12 text-base rounded-lg hover:bg-opacity-90 active:translate-y-[1px] transition-all duration-75">Login</button>
                     </div>
                 </div>
             </nav>
             <!-- \\\\\\\\\\\\\\\\ -->
             <!-- \\\ Main header -->
             <div
-                class="py-14 md:py-20 lg:py-32 max-w-screen-xl mx-auto flex justify-between gap-8 items-start px-5 xl:px-0 z-0">
+                class="py-14 md:py-20 lg:py-32 max-w-screen-xl mx-auto flex justify-between gap-8 items-start px-5 xl:px-0 z-0 ">
+
+
                 <div class="header-text">
                     <p class="font-kaisei font-normal text-xl xl:text-2xl">Lorem ipsum dolor sit</p>
                     <h1 class="font-bold text-4xl lg:text-6xl pt-5">Duis Autire<br>
@@ -62,7 +68,8 @@
                         labore et dolore</p>
                     <div class="border py-3 px-5 flex justify-between items-center mt-8 w-full rounded-sm">
                         <p class="text-darkGrey font-medium text-sm lg:text-base">Subscribe Now</p>
-                        <button class="font-regular bg-orange py-3 px-8 lg:px-12 text-base rounded-lg font-inter">Get
+                        <button
+                            class="font-regular bg-orange py-3 px-8 lg:px-12 text-base rounded-lg font-inter  hover:bg-opacity-90 active:translate-y-[1px] transition-all duration-75">Get
                             Started</button>
                     </div>
                     <div class="mt-9 grid grid-cols-2 gap-y-3 md:grid-cols-3 lg:gap-12 font-inter leading-[14px]">
@@ -198,7 +205,9 @@
         <section class="max-w-screen-xl mx-auto px-5 xl:px-0">
             <div class="about-us-title grid place-items-center justify-items-center grid-cols-3 gap-1 md:gap-0">
                 <div class="bg-lightOrange w-full h-[1px] "></div>
-                <h3 class="min-w-[180px] font-bold text-2xl md:text-3xl lg:text-4xl font-kaisei text-black">Meet Our
+                <h3
+                    class="min-w-[188px] font-bold text-2xl md:text-3xl lg:text-4xl font-kaisei text-black bg-white z-10 pl-1">
+                    Meet Our
                     Team</h3>
                 <div class="bg-lightOrange w-full h-[1px]"></div>
 
@@ -277,7 +286,8 @@
                     dolor tempor incididunt
                 </p>
                 <!-- company details cards👇 -->
-                <div class="companies mt-12 md:mt-16 lg:mt-20  grid lg:grid-cols-2 gap-x-8 gap-y-12">
+                <div
+                    class="companies mt-12 md:mt-16 lg:mt-20  grid lg:grid-cols-2 gap-x-8 gap-y-12 justify-items-center">
                     <!-- a Single card👇 -->
                     <div class="company flex flex-col gap-3 max-w-fit ">
                         <div><img src="/dist/assests/images/fbImage.png" alt="company1"></div>
@@ -368,12 +378,16 @@
 
                 </div>
                 <!-- company details cards👆 -->
-
+                <button
+                    class="mt-8 md:mt-12 lg:mt-16 font-regular border border-white py-3 px-12 text-base rounded-full text-white text-center block mx-auto">Load
+                    More
+                </button>
 
 
             </div>
         </section>
     </main>
+    <!-- <div class="w-96 h-96 rounded-full border-[66px] border-lightGreen -z-0 absolute"></div> -->
 </body>
 
 </html>

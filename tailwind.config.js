@@ -23,6 +23,9 @@ module.exports = {
         darkGrey: "#9F9F9F",
         desc: "rgba(0, 0, 0, 0.6)",
       },
+      borderColor: {
+        lightGreen: "rgba(63, 130, 119, 0.1)",
+      },
     },
   },
   plugins: [],
