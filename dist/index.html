@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Kaisei+Decol:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
         rel="stylesheet">
@@ -117,7 +118,7 @@
                     </div>
                 </div>
                 <div
-                    class="pb-12 grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 items-center justify-items-center gap-x-5 gap-y-8 lg:gap-14">
+                    class="pb-12 grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 items-center justify-items-center gap-x-5 gap-y-12 lg:gap-14">
                     <img src="/dist/assests/images/company1.png" alt="company 1" class="h-10 md:h-11 lg:h-12">
                     <img src="/dist/assests/images/company3.png" alt="company 1" class="h-10 md:h-11 lg:h-12">
                     <img src="/dist/assests/images/company5.png" alt="company 1" class="h-10 md:h-11 lg:h-12">
@@ -483,8 +484,9 @@
         </section>
 
         <section>
-            <div class="max-w-screen-xl mx-auto px-4 xl:px-0 pt-14 md:pt-20 lg:pt-32">
-                <div class="news-feed-title grid place-items-center justify-items-center grid-cols-3 gap-1 md:gap-0">
+            <div class=" px-4 xl:px-0 pt-14 md:pt-20 lg:pt-32">
+                <div
+                    class="news-feed-title max-w-screen-xl mx-auto grid place-items-center justify-items-center grid-cols-3 gap-1 md:gap-0">
                     <div class="bg-lightOrange w-full h-[1px] "></div>
                     <h3
                         class="min-w-[132px] font-bold text-2xl md:text-3xl lg:text-4xl font-kaisei text-black bg-white z-10 pl-1">
@@ -497,8 +499,82 @@
                         dolor tempor incididunt
                     </p>
                 </div>
+                <div class="flex items-center justify-center">
+                    <div
+                        class="mt-16 p-10 bg-lightOrange max-w-3xl rounded-[20px] flex flex-col items-center justify-center text-center shadow-card">
+                        <img src="/dist/assests/images/quote.png" alt="quote">
+                        <p class="pt-9 font-medium max-w-2xl text-xl md:text-2xl">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        </p>
+                        <div class="pt-10 -mb-36 flex items-center justify-center flex-col"><img
+                                src="/dist/assests/images/testimonialImg.png" alt="testimony">
+                            <p class="pt-2 font-medium text-xl">Lorem ipsum</p>
+                            <p class="font-medium text-sm text-desc">consectetur adipiscing</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+        <!-- <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+            class="mySwiper w-full object-cover" thumbs-swiper=".mySwiper2" loop="true" space-between="10"
+            navigation="true">
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery1.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery2.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery3.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery4.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery5.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery6.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery7.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery8.png" />
+            </swiper-slide>
+        </swiper-container>
+
+        <swiper-container class="mySwiper2" loop="true" space-between="10" slides-per-view="10" free-mode="true"
+            watch-slides-progress="true">
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery1.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery2.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery3.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery4.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery5.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery6.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery7.png" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/dist/assests/images/gallery8.png" />
+            </swiper-slide>
+        </swiper-container>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script> -->
     </main>
     <!-- <div class="w-96 h-96 rounded-full border-[66px] border-lightGreen -z-0 absolute"></div> -->
 </body>
