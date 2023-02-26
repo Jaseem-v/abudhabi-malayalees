@@ -26,6 +26,9 @@ module.exports = {
       borderColor: {
         lightGreen: "rgba(63, 130, 119, 0.1)",
       },
+      boxShadow: {
+        card: "-7px 7px 29px 1px rgba(0, 0, 0, 0.17)",
+      },
     },
   },
   plugins: [],
