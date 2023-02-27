@@ -114,3 +114,17 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* ABOUT US PAGE */
+.about-us-header {
+  background-image: url(/dist/assests/images/aboutUsHeader.png);
+  background-size: cover;
+}
+.contactUs-header {
+  background-image: url(/dist/assests/images/header.png);
+  background-size: cover;
+}
+.gallery-header {
+  background-image: url(/dist/assests/images/header.png);
+  background-size: cover;
+}
