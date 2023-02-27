@@ -108,7 +108,7 @@ html {
 }
 
 .contact-us {
-  background-image: url(/dist/assests/images/contactUsImg.png);
+  background-image: url(/assests/images/contactUsImg.png);
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -117,14 +117,14 @@ html {
 
 /* ABOUT US PAGE */
 .about-us-header {
-  background-image: url(/dist/assests/images/aboutUsHeader.png);
+  background-image: url(/assests/images/aboutUsHeader.png);
   background-size: cover;
 }
 .contactUs-header {
-  background-image: url(/dist/assests/images/header.png);
+  background-image: url(/assests/images/header.png);
   background-size: cover;
 }
 .gallery-header {
-  background-image: url(/dist/assests/images/header.png);
+  background-image: url(/assests/images/header.png);
   background-size: cover;
 }
