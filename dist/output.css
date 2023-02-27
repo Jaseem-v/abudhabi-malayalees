@@ -546,6 +546,10 @@ video {
   margin-right: auto;
 }
 
+.-mb-36 {
+  margin-bottom: -9rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -576,30 +580,6 @@ video {
 
 .mt-9 {
   margin-top: 2.25rem;
-}
-
-.-mb-10 {
-  margin-bottom: -2.5rem;
-}
-
-.-mb-14 {
-  margin-bottom: -3.5rem;
-}
-
-.-mb-20 {
-  margin-bottom: -5rem;
-}
-
-.-mb-24 {
-  margin-bottom: -6rem;
-}
-
-.-mb-40 {
-  margin-bottom: -10rem;
-}
-
-.-mb-36 {
-  margin-bottom: -9rem;
 }
 
 .block {
@@ -674,6 +654,14 @@ video {
   min-width: 100%;
 }
 
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
 .max-w-fit {
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -695,14 +683,6 @@ video {
   max-width: 20rem;
 }
 
-.max-w-2xl {
-  max-width: 42rem;
-}
-
-.max-w-3xl {
-  max-width: 48rem;
-}
-
 .grow {
   flex-grow: 1;
 }
@@ -713,10 +693,6 @@ video {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -819,20 +795,12 @@ video {
   row-gap: 2rem;
 }
 
-.overflow-scroll {
-  overflow: scroll;
-}
-
 .overflow-x-hidden {
   overflow-x: hidden;
 }
 
 .overflow-x-scroll {
   overflow-x: scroll;
-}
-
-.whitespace-nowrap {
-  white-space: nowrap;
 }
 
 .rounded-2xl {
@@ -920,14 +888,13 @@ video {
           background-clip: text;
 }
 
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-12 {
@@ -940,10 +907,6 @@ video {
 
 .p-7 {
   padding: 1.75rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .px-10 {
@@ -1014,28 +977,28 @@ video {
   padding-left: 0.25rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .pt-14 {
   padding-top: 3.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
 }
 
 .pt-5 {
   padding-top: 1.25rem;
 }
 
-.pt-\[10\%\] {
-  padding-top: 10%;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
 .pt-9 {
   padding-top: 2.25rem;
 }
 
-.pt-2 {
-  padding-top: 0.5rem;
+.pt-\[10\%\] {
+  padding-top: 10%;
 }
 
 .text-center {
@@ -1442,14 +1405,6 @@ html {
 
   .lg\:max-w-5xl {
     max-width: 64rem;
-  }
-
-  .lg\:max-w-2xl {
-    max-width: 42rem;
-  }
-
-  .lg\:max-w-\[700px\] {
-    max-width: 700px;
   }
 
   .lg\:grid-cols-2 {
