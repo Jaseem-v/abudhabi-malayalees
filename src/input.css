@@ -5,48 +5,6 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-:root {
-  --bp-xlarge: 112.5em; /* 1800px */
-  --bp-largest: 75em; /*1200px*/
-  --bp-992: 61.875em; /*990*/
-  --bp-small: 52.25em; /*900px*/
-  --bp-xsmall: 37.5em; /*600px*/
-  --bp-380: 23.75em; /*380*/
-  --bp-340: 21.25em; /*340*/
-  --bp-290: 18.125em; /*290*/
-}
-
-html {
-  /* font-size: 62.5%; */
-
-  @media only screen and (max-width: var(--bp-largest)) {
-    font-size: 56.25%;
-  }
-
-  @media only screen and (max-width: 900px) {
-    font-size: 50%;
-  }
-
-  @media only screen and (max-width: 37.5em) {
-    /* font-size: 48.75%; */
-  }
-
-  @media not all and (min-width: 640px) {
-    font-size: 44%;
-  }
-
-  @media only screen and (max-width: var(--bp-340)) {
-    font-size: 42%;
-  }
-
-  @media only screen and (max-width: var(--bp-290)) {
-    font-size: 35%;
-  }
-
-  @media only screen and (min-width: var(--bp-xlarge)) {
-    font-size: 75%;
-  }
-}
 
 .navLine {
   animation: navLine 1s ease-in-out 700ms backwards;
@@ -108,7 +66,7 @@ html {
 }
 
 .contact-us {
-  background-image: url(/assests/images/contactUsImg.png);
+  background-image: url(/assets/images/contactUsImg.png);
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -117,14 +75,14 @@ html {
 
 /* ABOUT US PAGE */
 .about-us-header {
-  background-image: url(/assests/images/aboutUsHeader.png);
+  background-image: url(/assets/images/aboutUsHeader.png);
   background-size: cover;
 }
 .contactUs-header {
-  background-image: url(/assests/images/header.png);
+  background-image: url(/assets/images/header.png);
   background-size: cover;
 }
 .gallery-header {
-  background-image: url(/assests/images/header.png);
+  background-image: url(/assets/images/header.png);
   background-size: cover;
 }

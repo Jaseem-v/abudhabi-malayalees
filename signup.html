@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Kaisei+Decol:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link href="output.css" rel="stylesheet">
-    <title>Abudhabi Malayalees | Login</title>
+    <title>Abudhabi Malayalees | Signup</title>
 </head>
 <!-- section spacing: py-14 md:py-20 lg:py-32 -->
 <!--section width:  max-w-screen-xl mx-auto px-4 xl:px-0-->
@@ -26,37 +26,39 @@
              xl:px-0 ">
                 <!-- back icon -->
                 <div><a href="/index.html"><img src="/assets/images/back-icon.png" alt="back icon"
-                            class="absolute top-7 left-0 w-10 h-10"></a>
+                            class="absolute top-7 left-7 xl:left-0 w-10 h-10"></a>
                 </div>
                 <!-- back icon -->
                 <div class="flex items-center justify-center lg:gap-20">
                     <div class="max-w-[400px] ">
                         <p class="font-bold text-3xl ">Welcome back</p>
                         <p class="font-medium text-lg md:text-xl lg:text-2xl
-                        mt-1">Enter your login details</p>
+                        mt-1">Enter your details</p>
                         <!-- login form -->
                         <form action="submit" class="mt-8 md:mt-11 lg:mt-14
                         mb-12 md:mb-16 lg:mb-20">
+                            <input type="text" placeholder="Name" class="w-full border-b border-black border-opacity-40
+                                py-4 focus:outline-none mb-9">
                             <input type="email" placeholder="Email" class="w-full border-b border-black border-opacity-40
                                 py-4 focus:outline-none mb-9">
                             <input type="password" placeholder="Password" class="w-full border-b border-black border-opacity-40
                                 py-4 focus:outline-none">
                         </form>
                         <button
-                            class="font-regular bg-lightOrange py-3 md:py-4 px-12 text-lg md:text-xl rounded-md w-full">Login
+                            class="font-regular bg-lightOrange py-3 md:py-4 px-12 text-lg md:text-xl rounded-md w-full">Signup
                         </button>
                         <button
-                            class="mt-4 font-regular bg-white py-3 md:py-4 px-12 text-lg md:text-xl rounded-md w-full border border-black">Login
+                            class="mt-4 font-regular bg-white py-3 md:py-4 px-12 text-lg md:text-xl rounded-md w-full border border-black">Signup
                             with google
                         </button>
                         <div class="mt-5 flex gap-1 justify-center font-bold text-base md:text-lg lg:text-xl">
-                            <p class="font-medium">Don't have an account?</p>
-                            <a href="/signup.html">
-                                <p>Register Now</p>
+                            <p class="font-medium">Already have an account?</p>
+                            <a href="/login.html">
+                                <p>Login Now</p>
                             </a>
                         </div>
                     </div>
-                    <div class="hidden xl:block"><img src="/assets/images/loginImage.png" alt=""></div>
+                    <div class="hidden xl:block"><img src="/assets/images/signupImage.png" alt="signup image"></div>
                 </div>
             </div>
         </section>
