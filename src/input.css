@@ -86,3 +86,7 @@ body {
   background-image: url(/assets/images/header.png);
   background-size: cover;
 }
+.businessFirms-header {
+  background-image: url(/assets/images/businessFirms.png);
+  background-size: cover;
+}
