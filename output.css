@@ -673,6 +673,14 @@ video {
   margin-top: 2.25rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .block {
   display: block;
 }
@@ -1336,6 +1344,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
 }
 
 .font-bold {
