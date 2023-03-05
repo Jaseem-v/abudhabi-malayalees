@@ -549,16 +549,16 @@ video {
   top: 0px;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
 .top-3 {
   top: 0.75rem;
 }
 
 .top-7 {
   top: 1.75rem;
-}
-
-.top-10 {
-  top: 2.5rem;
 }
 
 .-z-0 {
@@ -723,10 +723,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[90vh\] {
-  height: 90vh;
 }
 
 .w-10 {
@@ -962,6 +958,10 @@ video {
   overflow-x: scroll;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -994,10 +994,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .border {
   border-width: 1px;
 }
@@ -1009,11 +1005,6 @@ video {
 .border-x {
   border-left-width: 1px;
   border-right-width: 1px;
-}
-
-.border-x-\[0\.5px\] {
-  border-left-width: 0.5px;
-  border-right-width: 0.5px;
 }
 
 .border-b {
@@ -1036,10 +1027,6 @@ video {
 
 .border-opacity-40 {
   --tw-border-opacity: 0.4;
-}
-
-.border-opacity-30 {
-  --tw-border-opacity: 0.3;
 }
 
 .bg-\[\#e3e3e3\] {
@@ -1106,6 +1093,10 @@ video {
   padding: 3rem;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -1116,10 +1107,6 @@ video {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
 }
 
 .px-10 {
@@ -1287,18 +1274,6 @@ video {
   padding-top: 10%;
 }
 
-.pb-1 {
-  padding-bottom: 0.25rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -1383,10 +1358,6 @@ video {
   font-weight: 600;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
 .leading-\[14px\] {
   line-height: 14px;
 }
@@ -1397,34 +1368,6 @@ video {
 
 .leading-tight {
   line-height: 1.25;
-}
-
-.leading-\[137\%\] {
-  line-height: 137%;
-}
-
-.leading-\[71px\] {
-  line-height: 71px;
-}
-
-.leading-5 {
-  line-height: 1.25rem;
-}
-
-.leading-loose {
-  line-height: 2;
-}
-
-.leading-4 {
-  line-height: 1rem;
-}
-
-.leading-none {
-  line-height: 1;
-}
-
-.leading-\[56px\] {
-  line-height: 56px;
 }
 
 .text-black {
@@ -1465,10 +1408,6 @@ video {
 
 .opacity-80 {
   opacity: 0.8;
-}
-
-.opacity-30 {
-  opacity: 0.3;
 }
 
 .shadow-card {
@@ -1697,6 +1636,10 @@ body {
     margin-top: 4rem;
   }
 
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .md\:mt-3 {
     margin-top: 0.75rem;
   }
@@ -1719,10 +1662,6 @@ body {
 
   .md\:mt-9 {
     margin-top: 2.25rem;
-  }
-
-  .md\:mt-20 {
-    margin-top: 5rem;
   }
 
   .md\:h-11 {
@@ -1769,6 +1708,10 @@ body {
     gap: 0.75rem;
   }
 
+  .md\:gap-4 {
+    gap: 1rem;
+  }
+
   .md\:gap-5 {
     gap: 1.25rem;
   }
@@ -1783,10 +1726,6 @@ body {
 
   .md\:gap-9 {
     gap: 2.25rem;
-  }
-
-  .md\:gap-4 {
-    gap: 1rem;
   }
 
   .md\:gap-x-11 {
@@ -1809,6 +1748,11 @@ body {
 
   .md\:p-6 {
     padding: 1.5rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:px-12 {
@@ -1854,11 +1798,6 @@ body {
   .md\:py-9 {
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
-  }
-
-  .md\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .md\:py-\[15px\] {
@@ -1918,6 +1857,10 @@ body {
     line-height: 1;
   }
 
+  .md\:text-\[42px\] {
+    font-size: 42px;
+  }
+
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -1931,22 +1874,6 @@ body {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-\[42px\] {
-    font-size: 42px;
-  }
-
-  .md\:leading-\[56px\] {
-    line-height: 56px;
-  }
-
-  .md\:leading-\[76px\] {
-    line-height: 76px;
-  }
-
-  .md\:leading-\[66px\] {
-    line-height: 66px;
   }
 
   .md\:leading-\[62px\] {
@@ -2006,6 +1933,10 @@ body {
     margin-top: 5rem;
   }
 
+  .lg\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .lg\:mt-4 {
     margin-top: 1rem;
   }
@@ -2024,14 +1955,6 @@ body {
 
   .lg\:mt-9 {
     margin-top: 2.25rem;
-  }
-
-  .lg\:mt-24 {
-    margin-top: 6rem;
-  }
-
-  .lg\:mt-28 {
-    margin-top: 7rem;
   }
 
   .lg\:block {
@@ -2234,6 +2157,10 @@ body {
     line-height: 1;
   }
 
+  .lg\:text-\[54px\] {
+    font-size: 54px;
+  }
+
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -2252,18 +2179,6 @@ body {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-\[48px\] {
-    font-size: 48px;
-  }
-
-  .lg\:text-\[54px\] {
-    font-size: 54px;
-  }
-
-  .lg\:text-\[58px\] {
-    font-size: 58px;
   }
 }
 
