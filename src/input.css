@@ -9,27 +9,35 @@ body {
 .navLine {
   animation: navLine 1s ease-in-out 700ms backwards;
 }
+
 .navItem {
   animation: all slideInDown 1s ease-in 200ms backwards;
 }
+
 .logo {
   animation: slideInDown 400ms ease-in;
 }
+
 .nav1 {
   animation: slideInDown 400ms ease-in 100ms backwards;
 }
+
 .nav2 {
   animation: slideInDown 400ms ease-in 200ms backwards;
 }
+
 .nav3 {
   animation: slideInDown 400ms ease-in 300ms backwards;
 }
+
 .nav4 {
   animation: slideInDown 400ms ease-in 400ms backwards;
 }
+
 .nav4 {
   animation: slideInDown 400ms ease-in 500ms backwards;
 }
+
 .navBtn {
   animation: slideInDown 400ms ease-in 600ms backwards;
 }
@@ -38,6 +46,7 @@ body {
   0% {
     width: 0%;
   }
+
   100% {
     width: 100%;
   }
@@ -48,6 +57,7 @@ body {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   100% {
     opacity: 100;
     transform: translateY(0px);
@@ -59,6 +69,7 @@ body {
     opacity: 0;
     transform: translateX(-30px);
   }
+
   100% {
     opacity: 100;
     transform: translateX(0px);
@@ -78,14 +89,17 @@ body {
   background-image: url(/assets/images/aboutUsHeader.png);
   background-size: cover;
 }
+
 .contactUs-header {
   background-image: url(/assets/images/header.png);
   background-size: cover;
 }
+
 .gallery-header {
   background-image: url(/assets/images/header.png);
   background-size: cover;
 }
+
 .businessFirms-header {
   background-image: url(/assets/images/businessFirms.png);
   background-size: cover;
@@ -94,19 +108,32 @@ body {
 .main-header {
   background-image: url(/assets/images/headerImage2.png);
   background-size: cover;
-  background: #000;
+  /* background: #000; */
+  position: relative;
+}
+
+.main-header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
 }
 
 /* /////////////////////////////////////////////// */
 /* // social media section */
 
-.social-media-section{
+.social-media-section {
   background: #FAFAFA;
   /* box-shadow: 0 1px 8px rgba(0,0,0,.1); */
   /* padding-bottom: 100px; */
+  z-index: 1;
+  position: relative;
 }
 
-.social-media-section h1{
+.social-media-section h1 {
   font-family: sans-serif;
   font-weight: normal;
   font-size: 25px;
@@ -116,11 +143,13 @@ body {
   text-align: center;
 
 }
-.social-media-section .Social-media{
+
+.social-media-section .Social-media {
   display: flex;
   justify-content: center;
 }
-.social-media-section a{
+
+.social-media-section a {
   display: flex;
   background: #FAFAFA;
   height: 45px;
@@ -130,41 +159,48 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-              -6px -6px 10px -1px rgba(255,255,255,0.7);
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
   border: 1px solid rgba(0, 0, 0, 0);
   transition: transform 0.5s
 }
-.social-media-section a i{
+
+.social-media-section a i {
   font-size: 25px;
-  color:#777;
+  color: #777;
   transition: transform 0.5s;
 }
-.social-media-section a:hover{
-  box-shadow:inset 4px 4px 6px -1px rgba(0,0,0,0.2),
-              inset -4px -4px 6px -1px rgba(255,255,255,0.7),
-                    -0.5px -0.5px 0px -1px rgba(255,255,255,1),
-                    0.5px 0.5px 0px rgba(0,0,0,0.15),
-                    0px 12px 10px -10px rgba(0,0,0,0.05);
+
+.social-media-section a:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px -1px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(255, 0, 0, 0.1);
   transform: translateY(2px);
 }
-.social-media-section a:hover i{
+
+.social-media-section a:hover i {
   transform: scale(0.90);
 }
-.social-media-section a:hover .fa-facebook{
+
+.social-media-section a:hover .fa-facebook {
   color: #3b5998;
 }
-.social-media-section a:hover .fa-telegram{
+
+.social-media-section a:hover .fa-telegram {
   color: #00acee;
 }
-.social-media-section a:hover .fa-whatsapp{
+
+.social-media-section a:hover .fa-whatsapp {
   color: #4fce5d;
 }
-.social-media-section a:hover .fa-instagram{
+
+.social-media-section a:hover .fa-instagram {
   color: #f14843;
 }
-.social-media-section a:hover .fa-youtube{
+
+.social-media-section a:hover .fa-youtube {
   color: #f00;
 }
-
