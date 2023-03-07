@@ -20,7 +20,7 @@
 
 <body class="overflow-x-hidden">
     <main>
-        <header class="bg-bgBlack text-white">
+        <header class="main-header text-white h-screen font-inter">
 
             <!-- \\\\\\\\\\\\\\\\ -->
             <!-- \\\ Navbar -->
@@ -44,6 +44,11 @@
                                 Us</a>
                             <a href="gallery.html"
                                 class="nav3 text-base hover:text-slate-300 active:text-slate-400">Gallery</a>
+                            <a href="businessFirms.html"
+                                class="nav3 text-base hover:text-slate-300 active:text-slate-400 flex items-center justify-center gap-2 relative">
+                                <p>Business</p><img src="/assets/images/expand.svg" alt="expand" class="mt-1">
+                            </a>
+
                             <a href="contactUs.html"
                                 class="nav4 text-base hover:text-slate-300 active:text-slate-400">Contact
                                 Us</a>
@@ -51,61 +56,68 @@
                     </div>
                     <div>
                         <a href="/login.html"><button
-                                class="navBtn font-regular bg-orange py-3 px-12 text-base rounded-lg hover:bg-opacity-90 active:translate-y-[1px] transition-all duration-75">Login</button></a>
+                                class="navBtn font-regular bg-white text-black py-3 px-12 text-base rounded-lg hover:bg-opacity-90 active:translate-y-[1px] transition-all duration-75">Login</button></a>
                     </div>
                 </div>
                 <div class="w-full h-[1px] bg-white navLine"></div>
             </nav>
+            <!-- dropdown -->
+            <!-- <div className="bg-white  absolute  rounded-lg top-10 text-base shadow-md dropdown-menu p-3 ">
+                <ul className="list-none flex flex-col ">
+                    <li className="hover:bg-slate-200 px-4 py-2 rounded">
+                        <a href="#" className="flex items-center gap-3">
+                            <img src="" alt="">
+                            <span>Agencies</span>
+                        </a>
+                    </li>
+                    <li className="hover:bg-slate-200 px-4 py-2 rounded">
+                        <a href="#" className="flex items-center gap-3">
+                            <img src="" alt="">
+
+                            <span>Ecommerce</span>
+                        </a>
+                    </li>
+                    <li className="hover:bg-slate-200 px-4 py-2 rounded">
+                        <a href="#" className="flex items-center gap-3">
+                            <img src="" alt="">
+                            <span>Brands</span>
+                        </a>
+                    </li>
+                </ul>
+            </div> -->
+            <!-- dropdown -->
             <!-- \\\\\\\\\\\\\\\\ -->
             <!-- \\\ Main header -->
-            <div
-                class="py-14 md:py-20 lg:py-32 max-w-screen-xl mx-auto flex justify-between gap-8 items-start px-5 xl:px-0 z-0 ">
-
-
-                <div class="header-text">
-                    <p class="font-kaisei font-normal text-xl xl:text-2xl">Abudhabi Malayalees Business Community</p>
-                    <h1 class="font-bold text-4xl lg:text-6xl pt-5 max-w-lg">Empowering Businesses and Building
-                        Connections: <br> Spotlight on Abu Dhabi Malayalees</h1>
-                    <p class="text-sm md:text-base lg:text-lg opacity-50 max-w-lg mt-2 ">Connecting, empowering, and
-                        thriving - join the Abudhabi Malayalees community today!</p>
-                    <div class="border py-3 px-5 flex justify-between items-center mt-8 w-full rounded-sm">
-                        <p class="text-darkGrey font-medium text-sm lg:text-base">Subscribe Now</p>
+            <div class="text-center flex flex-col justify-center mt-36 lg:mt-28 px-5 xl:px-0">
+                <p class="font-semibold text-[28px] md:text-[42px] lg:text-[54px] leading-tight md:leading-[62px]">
+                    Empowering
+                    Businesses
+                    <br>
+                    and Building Connections
+                </p>
+                <p class="opacity-80 font-medium mt-3 md:mt-4 text-sm md:text-lg lg:text-xl">Connecting, empowering,
+                    and thriving - join the <br>Abudhabi Malayalees community today!
+                </p>
+                <div class="flex gap-2 md:gap-4 mt-8 items-center justify-center">
+                    <a href="/signup.html">
                         <button
-                            class="font-regular bg-orange py-3 px-8 lg:px-12 text-base rounded-lg font-inter  hover:bg-opacity-90 active:translate-y-[1px] transition-all duration-75">Get
-                            Started</button>
-                    </div>
-                    <div class="mt-9 my-8 grid grid-cols-2 gap-y-3 md:grid-cols-3 lg:gap-12 font-inter leading-[14px] "
-                        style="
-                    margin-bottom: 3rem;
-                ">
-                        <div class="flex gap-1 items-center">
-                            <p class="header-count font-bold text-xl md:text-2xl lg:text-3xl">15M+</p>
-                            <p class="count-title font-medium text-sm md:text-base leading-tight text-lightGrey ">
-                                Daily<br>Clients
-                            </p>
-                        </div>
-                        <div class="flex gap-1 items-center">
-                            <p class="header-count font-bold text-xl md:text-2xl lg:text-3xl">25M+</p>
-                            <p class="count-title font-medium text-sm md:text-base leading-tight text-lightGrey ">
-                                Daily<br>Clients
-                            </p>
-                        </div>
-                        <div class="flex gap-1 items-center">
-                            <p class="header-count font-bold text-xl md:text-2xl lg:text-3xl">250+</p>
-                            <p class="count-title font-medium text-sm md:text-base leading-tight text-lightGrey ">
-                                Daily<br>Clients
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="header-img hidden lg:block"><img src="assets/images/main-header.png" alt="header img">
+                            class="py-3 md:py-4 px-8 md:px-12 bg-white text-black font-medium text-base md:text-lg lg:text-xl rounded-lg">Register
+                            Now
+                        </button>
+                    </a>
+                    <a href="/aboutUs.html" class="">
+                        <button class="py-[11px] md:py-[15px] px-6 md:px-10 bg-black bg-opacity-30 text-white font-medium text-base md:text-lg lg:text-xl rounded-lg border border-white
+                        flex items-center justify-center gap-2">
+                            <p>Learn more</p><img src="/assets/images/arrow-right.svg" alt="">
+                        </button>
+                    </a>
                 </div>
             </div>
         </header>
 
         <!-- \\\\\\\\\\\\\\\\ -->
         <!-- \\\ Popular Companies -->
-        <section class="z-10 lg:-mt-32">
+        <section class="z-10 ">
             <div class="bg-gold flex flex-col gap-12 p-12 max-w-screen-xl mx-auto rounded-sm">
                 <div class="flex items-center justify-between">
                     <p class="font-kaisei font-bold text-xl text-black">Popular Companies</p>
