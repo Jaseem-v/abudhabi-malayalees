@@ -19,7 +19,7 @@
 <body>
     <main>
         <header class="contactUs-header text-white">
-            <nav class="font-inter ">
+            <nav class="font-inter relative z-10">
                 <div class="max-w-screen-xl mx-auto flex items-center justify-between px-5 xl:px-0">
                     <!-- logo👇 -->
                     <a href="/index.html" class="logo flex items-center gap-2 py-7"><img src="assets/images/logo.png"
@@ -29,28 +29,38 @@
                             Abu
                             Dhabi<br>Malayalees</p>
                     </a>
-                    <!-- logo👆 -->
-                    <div class="hidden lg:grid h-[120px] items-center border-x px-20">
+                    <!-- lmenu items -->
+                    <div class="hidden lg:grid h-[120px] items-center border-x px-16">
                         <div class="flex gap-14" id="navbar-cta">
-                            <a href="index.html" class="nav1 text-base hover:text-slate-300 active:text-slate-400"
+                            <a href="index.html"
+                                class="nav1 text-base text-gray-300  hover:text-white active:text-slate-400"
                                 aria-current="page">Home</a>
                             <a href="aboutUs.html"
-                                class="nav2 text-base hover:text-slate-300 active:text-slate-400">About
+                                class="nav2 text-base text-gray-300 hover:text-white active:text-slate-400">About
                                 Us</a>
                             <a href="gallery.html"
-                                class="nav3 text-base hover:text-slate-300 active:text-slate-400">Gallery</a>
+                                class="nav3 text-base text-gray-300 hover:text-white active:text-slate-400">Gallery</a>
+                            <!-- dropdown -->
+                            <a href="businessFirms.html"
+                                class="nav4 text-base text-gray-300 hover:text-white active:text-slate-400 flex items-center justify-center gap-2">
+                                <p>Business</p>
+                                <!-- <img src="/assets/images/expand.svg" alt="expand" class="mt-1" id="menu-btn"> -->
+                            </a>
+                            <a href="events.html"
+                                class="nav5 text-base  text-gray-300 hover:text-white active:text-slate-400">Events</a>
                             <a href="contactUs.html"
-                                class="nav4 font-bold text-base hover:text-slate-300 active:text-slate-400">Contact
+                                class="nav6 text-base font-bold hover:text-white active:text-slate-400">Contact
                                 Us</a>
                         </div>
                     </div>
+                    <!-- login -->
                     <div>
                         <a href="/login.html"><button
-                                class="navBtn font-regular bg-orange py-3 px-12 text-base rounded-lg hover:bg-opacity-90 active:translate-y-[1px] transition-all duration-75">Login</button></a>
+                                class="navBtn font-regular bg-white text-black py-3 px-12 text-base rounded-lg hover:bg-opacity-90 active:translate-y-[1px] transition-all duration-75">Login</button>
+                        </a>
                     </div>
                 </div>
                 <div class="w-full h-[1px] bg-white navLine"></div>
-
             </nav>
             <div class="py-16 md:py-20 lg:py-24 xl:py-28
             flex flex-col items-center justify-center

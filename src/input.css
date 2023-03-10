@@ -34,8 +34,11 @@ body {
   animation: slideInDown 400ms ease-in 400ms backwards;
 }
 
-.nav4 {
+.nav5 {
   animation: slideInDown 400ms ease-in 500ms backwards;
+}
+.nav6 {
+  animation: slideInDown 400ms ease-in 600ms backwards;
 }
 
 .navBtn {
@@ -212,4 +215,21 @@ body {
   background-repeat: no-repeat;
   object-fit: cover;
   height: 100%;
+}
+
+.dropdown-menu {
+  display: hidden;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-menu:hover .dropdown-menu {
+  display: block;
+}
+/* dfasdf */
+#dropdownDefaultButton:hover #dropdown {
+  display: block;
 }
