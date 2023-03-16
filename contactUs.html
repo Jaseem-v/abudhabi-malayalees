@@ -19,6 +19,8 @@
 <body>
     <main>
         <header class="contactUs-header text-white">
+            <!-- \\\\\\\\\\\\\\\\ -->
+            <!-- \\\ Navbar -->
             <nav class="font-inter relative z-10 bg-black" id="navbar">
                 <div class="max-w-screen-xl mx-auto flex items-center justify-between px-5 xl:px-0">
                     <!-- logo👇 -->
@@ -31,27 +33,52 @@
                     </a>
                     <!-- lmenu items -->
                     <div class="hidden lg:grid h-[120px] items-center border-x px-16">
-                        <div class="flex gap-14" id="navbar-cta">
-                            <a href="index.html"
-                                class="nav1 text-base text-gray-300  hover:text-white active:text-slate-400"
-                                aria-current="page">Home</a>
-                            <a href="aboutUs.html"
-                                class="nav2 text-base text-gray-300 hover:text-white active:text-slate-400">About
-                                Us</a>
-                            <a href="gallery.html"
-                                class="nav3 text-base text-gray-300 hover:text-white active:text-slate-400">Gallery</a>
+                        <ul class="flex gap-14" id="navbar-cta">
+                            <li class="py-12">
+                                <a href="index.html"
+                                    class="nav1 text-base text-gray-300 hover:text-white active:text-slate-400 "
+                                    aria-current="page">Home</a>
+                            </li>
+                            <li class="py-12">
+
+                                <a href="aboutUs.html"
+                                    class="nav2 text-base  text-gray-300 hover:text-white active:text-slate-400">About
+                                    Us</a>
+                            </li>
+                            <li class="py-12">
+
+                                <a href="gallery.html"
+                                    class="nav3 text-base  text-gray-300 hover:text-white active:text-slate-400">Gallery</a>
+                            </li>
                             <!-- dropdown -->
-                            <a href="businessFirms.html"
-                                class="nav4 text-base text-gray-300 hover:text-white active:text-slate-400 flex items-center justify-center gap-2">
-                                <p>Business</p>
-                                <!-- <img src="/assets/images/expand.svg" alt="expand" class="mt-1" id="menu-btn"> -->
-                            </a>
-                            <a href="events.html"
-                                class="nav5 text-base  text-gray-300 hover:text-white active:text-slate-400">Events</a>
-                            <a href="contactUs.html"
-                                class="nav6 text-base font-bold hover:text-white active:text-slate-400">Contact
-                                Us</a>
-                        </div>
+                            <li class="relative py-12" id="menu-btn">
+                                <a href="businessFirms.html"
+                                    class="nav4 text-base  text-gray-300 hover:text-white active:text-slate-400 flex items-center justify-center gap-2">
+                                    Business
+                                    <img src="/assets/images/expand.svg" alt="expand" class="mt-1">
+                                </a>
+                                <div
+                                    class="bg-black flex flex-col rounded mt-1 p-2 text-black w-48 text-sm absolute top-full right-0 text-center  nav-submenu">
+                                    <a href="businessFirms.html"
+                                        class=" py-1 hover:bg-zinc-800 rounded center text-white">Business company
+                                    </a>
+                                    <a href="businessPersons.html"
+                                        class=" py-1 hover:bg-zinc-800 rounded center text-white">Business Persons
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="py-12">
+
+                                <a href="events.html"
+                                    class="nav5 text-base  text-gray-300 hover:text-white active:text-slate-400">Events</a>
+                            </li>
+                            <li class="py-12">
+
+                                <a href="#"
+                                    class="nav6 text-base  font-bold hover:text-slate-300 active:text-slate-400">Contact
+                                    Us</a>
+                            </li>
+                        </ul>
                     </div>
                     <!-- login -->
                     <div>
@@ -76,7 +103,7 @@
                     et dolore</p>
             </div>
         </header>
-    
+
         <!-- \\\\\\\\\\\\\\\\ -->
         <!-- \\\ Contact us -->
         <section class="contact-us w-full pb-12 md:pb-16 lg:pb-20">
@@ -197,7 +224,7 @@
             <div class="h-8 w-full"></div>
         </footer>
     </main>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
