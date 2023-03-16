@@ -631,11 +631,6 @@ video {
   margin-bottom: 3rem;
 }
 
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 .-mb-36 {
   margin-bottom: -9rem;
 }
@@ -1207,6 +1202,11 @@ video {
 .bg-zinc-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+}
+
+.bg-amber-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 211 77 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-30 {
@@ -2318,6 +2318,37 @@ gallery */
   }
 }
 
+/* /////////////////////////////////////// */
+
+/*  nav sub menu */
+
+.nav-submenu {
+  position: absolute;
+  top: 10rem;
+  visibility: hidden;
+  opacity: 0;
+  left: -3rem;
+  pointer-events: none;
+  z-index: 5;
+  transition: all 0.2s ease-in-out;
+}
+
+#menu-btn:hover .nav-submenu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  top: 6rem;
+  position: absolute;
+}
+
+.nav-submenu:hover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  top: 6rem;
+  position: absolute;
+}
+
 .placeholder\:text-base::-moz-placeholder {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2344,6 +2375,11 @@ gallery */
 .hover\:bg-slate-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-zinc-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-opacity-90:hover {

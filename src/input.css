@@ -626,3 +626,34 @@ gallery */
     display: none;
   }
 }
+
+/* /////////////////////////////////////// */
+/*  nav sub menu */
+
+.nav-submenu {
+  position: absolute;
+  top: 10rem;
+  visibility: hidden;
+  opacity: 0;
+  left: -3rem;
+  pointer-events: none;
+  z-index: 5;
+  transition: all 0.2s ease-in-out;
+}
+
+
+#menu-btn:hover .nav-submenu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  top: 6rem;
+  position: absolute;
+}
+
+.nav-submenu:hover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  top: 6rem;
+  position: absolute;
+}

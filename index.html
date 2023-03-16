@@ -39,37 +39,51 @@
                     </a>
                     <!-- lmenu items -->
                     <div class="hidden lg:grid h-[120px] items-center border-x px-16">
-                        <div class="flex gap-14" id="navbar-cta">
-                            <a href="#" class="nav1 text-base font-bold hover:text-slate-300 active:text-slate-400"
-                                aria-current="page">Home</a>
-                            <a href="aboutUs.html"
-                                class="nav2 text-base  text-gray-300 hover:text-white active:text-slate-400">About
-                                Us</a>
-                            <a href="gallery.html"
-                                class="nav3 text-base  text-gray-300 hover:text-white active:text-slate-400">Gallery</a>
+                        <ul class="flex gap-14" id="navbar-cta">
+                            <li class="py-12">
+                                <a href="#" class="nav1 text-base font-bold hover:text-slate-300 active:text-slate-400 "
+                                    aria-current="page">Home</a>
+                            </li>
+                            <li class="py-12">
+
+                                <a href="aboutUs.html"
+                                    class="nav2 text-base  text-gray-300 hover:text-white active:text-slate-400">About
+                                    Us</a>
+                            </li>
+                            <li class="py-12">
+
+                                <a href="gallery.html"
+                                    class="nav3 text-base  text-gray-300 hover:text-white active:text-slate-400">Gallery</a>
+                            </li>
                             <!-- dropdown -->
-                            <div class="relative z-50">
+                            <li class="relative py-12" id="menu-btn">
                                 <a href="businessFirms.html"
                                     class="nav4 text-base  text-gray-300 hover:text-white active:text-slate-400 flex items-center justify-center gap-2">
-                                    <p>Business</p>
-                                    <!-- <img src="/assets/images/expand.svg" alt="expand" class="mt-1" id="menu-btn"> -->
-                                    <!-- <div
-                                        class="bg-gray-200 flex flex-col rounded mt-1 p-2 text-black w-48 text-sm absolute top-full right-0 hidden">
-                                        <a href="businessFirmDetails.html"
-                                            class="px-2 py-1 hover:bg-gray-300 rounded">Business company
-                                        </a>
-                                        <a href="businessFirmDetails.html"
-                                            class="px-2 py-1 hover:bg-gray-300 rounded">Business Persons
-                                        </a>
-                                    </div> -->
+                                    Business
+                                    <img src="/assets/images/expand.svg" alt="expand" class="mt-1">
                                 </a>
-                            </div>
-                            <a href="events.html"
-                                class="nav5 text-base  text-gray-300 hover:text-white active:text-slate-400">Events</a>
-                            <a href="contactUs.html"
-                                class="nav6 text-base  text-gray-300 hover:text-white active:text-slate-400">Contact
-                                Us</a>
-                        </div>
+                                <div
+                                    class="bg-black flex flex-col rounded mt-1 p-2 text-black w-48 text-sm absolute top-full right-0 text-center  nav-submenu">
+                                    <a href="businessFirmDetails.html"
+                                        class=" py-1 hover:bg-zinc-800 rounded center text-white">Business company
+                                    </a>
+                                    <a href="businessFirmDetails.html"
+                                        class=" py-1 hover:bg-zinc-800 rounded center text-white">Business Persons
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="py-12">
+
+                                <a href="events.html"
+                                    class="nav5 text-base  text-gray-300 hover:text-white active:text-slate-400">Events</a>
+                            </li>
+                            <li class="py-12">
+
+                                <a href="contactUs.html"
+                                    class="nav6 text-base  text-gray-300 hover:text-white active:text-slate-400">Contact
+                                    Us</a>
+                            </li>
+                        </ul>
                     </div>
                     <!-- login -->
                     <div>
@@ -361,7 +375,7 @@
                                 <div class="flex">
                                     <div class="flex-shrink-0">
                                         <div
-                                            class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                            class="flex items-center justify-center h-12 w-12 rounded-md bg-lightOrange text-white">
                                             <!-- Heroicon name: globe-alt -->
                                             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -385,7 +399,7 @@
                                 <div class="flex">
                                     <div class="flex-shrink-0">
                                         <div
-                                            class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                            class="flex items-center justify-center h-12 w-12 rounded-md bg-lightOrange text-white">
                                             <!-- Heroicon name: scale -->
                                             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -1202,7 +1216,7 @@
     <!-- <div class="w-96 h-96 rounded-full border-[66px] border-lightGreen -z-0 absolute"></div> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
