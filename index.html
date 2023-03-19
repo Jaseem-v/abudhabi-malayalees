@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
     <link href="output.css" rel="stylesheet">
+    <script src="/index.js"></script>
     <title>Abudhabi Malayalees</title>
 </head>
 <!-- section spacing: py-14 md:py-20 lg:py-32 -->
@@ -44,7 +45,7 @@
                                 <a href="#" class="nav1 text-base font-bold hover:text-slate-300 active:text-slate-400 "
                                     aria-current="page">Home</a>
                             </li>
-                            <li class="py-12">
+                            <li class="py-12 hidden xl:block">
 
                                 <a href="aboutUs.html"
                                     class="nav2 text-base  text-gray-300 hover:text-white active:text-slate-400">About
@@ -77,7 +78,7 @@
                                 <a href="events.html"
                                     class="nav5 text-base  text-gray-300 hover:text-white active:text-slate-400">Events</a>
                             </li>
-                            <li class="py-12">
+                            <li class="py-12  hidden xl:block">
 
                                 <a href="contactUs.html"
                                     class="nav6 text-base  text-gray-300 hover:text-white active:text-slate-400">Contact
@@ -86,13 +87,79 @@
                         </ul>
                     </div>
                     <!-- login -->
-                    <div>
+                    <div class="hidden lg:block">
                         <a href="/login.html"><button
                                 class="navBtn font-regular bg-white text-black py-3 px-12 text-base rounded-lg hover:bg-opacity-90 active:translate-y-[1px] transition-all duration-75">Login</button>
                         </a>
                     </div>
+                    <!-- mobile menu -->
+                    <div class="-mr-2 flex lg:hidden">
+                        <!-- Hamburger button -->
+                        <button type="button"
+                            class="mobile-menu bg-gray-700 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-500 focus:outline-none focus:bg-gray-500 focus:text-white transition duration-150 ease-in-out"
+                            aria-label="Main menu" aria-expanded="false" onclick="myFunction()">
+                            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
                 <div class="w-full h-[1px] bg-white navLine"></div>
+                <!-- Mobile menu, toggle classes based on menu state -->
+                <div class="hidden lg:hidden transition-all ease-in duration-1000 relative" id="myLinks">
+                    <div class="px-2 py-6 sm:px-3 ">
+                        <!-- Your navigation links here -->
+                        <ul class="flex flex-col items-center justify-center gap-5" id="navbar-cta">
+                            <li class="">
+                                <a href="#" class=" text-base font-bold hover:text-slate-300 active:text-slate-400 "
+                                    aria-current="page">Home</a>
+                            </li>
+                            <li class="">
+
+                                <a href="aboutUs.html"
+                                    class=" text-base  text-gray-300 hover:text-white active:text-slate-400">About
+                                    Us</a>
+                            </li>
+                            <li class="">
+
+                                <a href="gallery.html"
+                                    class=" text-base  text-gray-300 hover:text-white active:text-slate-400">Gallery</a>
+                            </li>
+                            <li class="">
+
+                                <a href="businessFirms.html"
+                                    class=" text-base  text-gray-300 hover:text-white active:text-slate-400">Business
+                                    Firms</a>
+                            </li>
+                            <li class="">
+
+                                <a href="businessPersons.html"
+                                    class=" text-base  text-gray-300 hover:text-white active:text-slate-400">Business
+                                    Persons</a>
+                            </li>
+
+                            <li class="">
+
+                                <a href="events.html"
+                                    class=" text-base  text-gray-300 hover:text-white active:text-slate-400">Events</a>
+                            </li>
+                            <li class="">
+
+                                <a href="contactUs.html"
+                                    class=" text-base  text-gray-300 hover:text-white active:text-slate-400">Contact
+                                    Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
             </nav>
             <!-- \\\\\\\\\\\\\\\\ -->
             <!-- \\\ Main header -->
@@ -1071,7 +1138,7 @@
                 </div>
                 <div class="flex items-center justify-center gap-5 pb-36">
                     <!-- testimony -->
-                    <div
+                    <!-- <div
                         class="mt-16 p-5 md:p-6 lg:p-8 xl:p-10 bg-white  max-w-3xl rounded-[20px] flex flex-col items-center justify-center text-center shadow-card">
                         <img src="assets/images/quote.png" alt="quote" width="36px">
                         <p class="pt-9 font-medium max-w-2xl text-base md:text-lg">Lorem
@@ -1088,7 +1155,7 @@
                             <p class="font-medium text-xs text-desc">consectetur adipiscing
                             </p>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- testimony -->
                     <div
                         class="mt-16 p-5 md:p-6 lg:p-8 xl:p-10 bg-lightOrange  max-w-3xl rounded-[20px] flex flex-col items-center justify-center text-center shadow-card">
@@ -1109,7 +1176,7 @@
                         </div>
                     </div>
                     <!-- testimony -->
-                    <div
+                    <!-- <div
                         class="mt-16 p-5 md:p-6 lg:p-8 xl:p-10 bg-white  max-w-3xl rounded-[20px] flex flex-col items-center justify-center text-center shadow-card">
                         <img src="assets/images/quote.png" alt="quote" width="36px">
                         <p class="pt-9 font-medium max-w-2xl text-base md:text-lg">Lorem
@@ -1126,7 +1193,7 @@
                             <p class="font-medium text-xs text-desc">consectetur adipiscing
                             </p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
