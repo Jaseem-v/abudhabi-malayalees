@@ -2632,6 +2632,35 @@ gallery */
   }
 }
 
+/* menu list items*/
+
+.not-selected {
+  color: rgb(209 213 219);
+  font-size: 16px;
+}
+
+.not-selected:hover {
+  color: white;
+}
+
+.not-selected:active {
+  color: rgb(209 213 219);
+}
+
+.selected {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.selected:hover {
+  color: rgb(203 213 225);
+}
+
+.selected:active {
+  color: rgb(203 213 225);
+}
+
 .placeholder\:text-base::-moz-placeholder {
   font-size: 1rem;
   line-height: 1.5rem;
