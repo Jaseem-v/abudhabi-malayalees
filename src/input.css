@@ -871,3 +871,16 @@ gallery */
   top: 6rem;
   position: absolute;
 }
+
+/* mobile menu */
+.links {
+  animation: nav 5000ms ease-in;
+}
+@keyframes nav {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 100%;
+  }
+}
