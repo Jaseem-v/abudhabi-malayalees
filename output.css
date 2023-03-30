@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.0 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -31,6 +31,7 @@
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
 5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
 */
 
 html {
@@ -47,6 +48,8 @@ html {
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
 }
 
 /*
@@ -1888,7 +1891,7 @@ body {
 }
 
 .main-header {
-  background-image: url(/assets/images/headerImage2.png);
+  background-image: url(/assets/images/headerImage.png);
   background-size: cover;
   /* background: #000; */
   position: relative;
@@ -2618,10 +2621,6 @@ gallery */
 
 /* mobile menu */
 
-.links {
-  animation: nav 5000ms ease-in;
-}
-
 @keyframes nav {
   0% {
     height: 0px;
@@ -2660,6 +2659,8 @@ gallery */
 .selected:active {
   color: rgb(203 213 225);
 }
+
+/* ========= */
 
 .placeholder\:text-base::-moz-placeholder {
   font-size: 1rem;

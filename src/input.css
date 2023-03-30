@@ -137,7 +137,7 @@ body {
 }
 
 .main-header {
-  background-image: url(/assets/images/headerImage2.png);
+  background-image: url(/assets/images/headerImage.png);
   background-size: cover;
   /* background: #000; */
   position: relative;
@@ -873,9 +873,6 @@ gallery */
 }
 
 /* mobile menu */
-.links {
-  animation: nav 5000ms ease-in;
-}
 @keyframes nav {
   0% {
     height: 0px;
@@ -907,3 +904,5 @@ gallery */
 .selected:active {
   color: rgb(203 213 225);
 }
+
+/* ========= */
