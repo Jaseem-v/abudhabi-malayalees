@@ -6,6 +6,7 @@ function myFunction() {
     x.classList.remove("hidden");
   } else {
     x.classList.add("hidden");
+    x.classList.add("navClose");
   }
   if (menuOpen.classList.contains("hidden")) {
     menuOpen.classList.remove("hidden");
